@@ -189,6 +189,10 @@ header nav a {
   color: #000;
 }
 
+.banner img {
+  width: 100%;
+}
+
 /*HEADER STYLES ENDS HERE*/
 
 .top-content {
@@ -311,7 +315,7 @@ footer nav a {
 
 /*==========================================================================================================================
                                             ABOUT PAGE STYLES                                                                
-==========================================================================================================================*/
+============================================================================================================================*/
 main {
   font-weight: 600;
 }
@@ -361,4 +365,77 @@ main p {
 
 .about-bottom-section {
   margin-top: 50px;
+}
+
+/*==========================================================================================================================
+                                            MEDIA QUERIES                                                                
+============================================================================================================================*/
+
+/*==========
+ FOR TABLET
+ ===========*/
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 1024px) {
+  .container {
+    width: 900px;
+  }
+
+  .top-header-section {
+    flex-direction: column;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/*==========
+ FOR PHONES
+ ===========*/
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .top-header-section {
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header nav {
+    height: 140px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*main content styles*/
+
+  .top-content {
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .top-content .text-container {
+    width: 100%;
+  }
+
+  .middle-content {
+    height: 300px;
+  }
+
+  .middle-content h2 {
+    text-align: center;
+  }
+
+  .bottom-content {
+    flex-direction: column;
+    height: 200px;
+    margin: 0;
+  }
+
+  .bottom-content .text-container {
+    width: 100%;
+  }
 }
