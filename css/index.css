@@ -312,11 +312,17 @@ footer nav a {
 /*==========================================================================================================================
                                             ABOUT PAGE STYLES                                                                
 ==========================================================================================================================*/
+main {
+  font-weight: 600;
+}
+main p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
 .about-top-section {
   border-bottom: 1px dashed black;
   padding: 2%;
   margin-bottom: 30px;
-  font-weight: 600;
 }
 /* .about-middle-section,
 .middle-section-content {
@@ -328,7 +334,6 @@ footer nav a {
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
-  font-weight: 600;
 }
 
 .middle-section-content {
@@ -347,13 +352,13 @@ footer nav a {
 
 .middle-section-content button {
   padding: 1.5%;
-  width: 35%;
+  width: 30%;
   border-radius: 10px;
   border: 2px solid black;
   background-color: white;
+  font-size: 0.8rem;
 }
 
 .about-bottom-section {
   margin-top: 50px;
-  font-weight: 600;
 }
