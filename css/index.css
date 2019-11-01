@@ -162,14 +162,7 @@ p {
 ====================================================*/
 
 header {
-  border: 1px solid black;
   margin-bottom: 30px;
-}
-
-.top-header-section,
-.logo-container,
-header nav {
-  border: 1px solid black;
 }
 
 .top-header-section {
@@ -311,4 +304,14 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/*==========================================================================================================================
+                                            ABOUT PAGE STYLES                                                                
+==========================================================================================================================*/
+.about-top-section {
+  border-bottom: 1px dashed black;
+  padding: 2%;
+  margin-bottom: 30px;
+  font-weight: 600;
 }
