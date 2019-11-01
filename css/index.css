@@ -376,6 +376,7 @@ main p {
  ===========*/
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 1024px) {
+  /*---INDEX.HTML---*/
   .container {
     width: 900px;
   }
@@ -386,13 +387,16 @@ main p {
     align-items: center;
     justify-content: space-between;
   }
+
+  /*---ABOUT.HTML---*/
+  /*I think the design still is good for tablets so no changes here*/
 }
 
 /*==========
  FOR PHONES
  ===========*/
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   .container {
     width: 90%;
   }
@@ -411,6 +415,9 @@ main p {
   }
 
   /*main content styles*/
+  .text-container {
+    text-align: center;
+  }
 
   .top-content {
     flex-direction: column;
@@ -424,7 +431,6 @@ main p {
   .middle-content {
     height: 300px;
   }
-
   .middle-content h2 {
     text-align: center;
   }
@@ -437,5 +443,29 @@ main p {
 
   .bottom-content .text-container {
     width: 100%;
+    padding-right: 0;
+  }
+
+  /*----ABOUT.HTML-----*/
+  .about-top-section {
+    text-align: center;
+  }
+
+  .about-middle-section {
+    flex-flow: column nowrap;
+    height: 1900px;
+    justify-content: space-between;
+  }
+
+  .middle-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-bottom-section {
+    text-align: center;
   }
 }
