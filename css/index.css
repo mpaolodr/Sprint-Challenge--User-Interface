@@ -290,6 +290,9 @@ header nav a {
 footer {
   width: 100%;
   background: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 footer nav {
@@ -348,4 +351,9 @@ footer nav a {
   border-radius: 10px;
   border: 2px solid black;
   background-color: white;
+}
+
+.about-bottom-section {
+  margin-top: 50px;
+  font-weight: 600;
 }
